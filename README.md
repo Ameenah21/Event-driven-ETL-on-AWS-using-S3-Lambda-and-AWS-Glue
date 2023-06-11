@@ -13,6 +13,4 @@ The script outputs the project in two folders by countries. A json format contai
 - Create a crawler to crawl the output and create catalogue from the lambda function. 
 -  Create and run AWS Glue job join the data from both tables created in the catalogues. Store output in the analytics buckets.
 This tep is necessary beacuse to query entire data will require joining both tables each time
-
-# IAM Roles and Permissions
-You will create IAM roles for Lambda and Glue with read and write permisions for s3 and glue
+- IAM Roles and Permissions: You will create IAM roles for Lambda and Glue with read and write permisions for s3 and glue
