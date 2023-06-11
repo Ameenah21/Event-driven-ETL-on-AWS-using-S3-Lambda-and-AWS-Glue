@@ -2,7 +2,7 @@
 # Introduction
 A company wants to launch a new data driven campaign on Youtube and wants to understand the factors that determine how popular a Youtube video will get and characteristics of trending youtube videos. I will be extracting the data on trending videos using this scraper [here](https://github.com/Ameenah21/Trending-YouTube-Scraper) and build a pipeline to clean and format the data so that the data analytics team can query the data and answer business questions effectively.
 # Architecture diagram
-![Architecture](Event-driven-ETL-on-AWS-using-S3-Lambda-and-AWS-Glue/images/ETL on AWS.png)
+![Architecture](images/ETL on AWS.png)
 # About the Data
 The script outputs the project in two folders by countries. A json format containing the metadata about the video and a csv file containing the list of the trending videos in each countryl
 # Running the Project
